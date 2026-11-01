@@ -1,4 +1,5 @@
 from pathlib import Path
+
 from uib_inf100_graphics.helpers import (
     load_image,
     image_in_box
@@ -298,3 +299,5 @@ def menu_mouse_moved(app, event):
     app.hovered_button = None
 
     return None
+
+
